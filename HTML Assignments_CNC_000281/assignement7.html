@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Assignement # 7</title>
+</head>
+<body>
+	<h1>Chapter # 7 - Forms</h1>
+<p>
+	<form action="http://www.example.com/subscribe.php" method="post">
+		<fieldset>
+			<legend>Your Details:</legend>
+
+			Name:
+
+			<input type="text" name="name" placeholder="Enter your name" required="required">
+
+			<br><br>
+
+			Email:
+
+			<input type="email" name="email" placeholder="Enter your email" required="required">
+
+			<br><br>
+
+			Upload Your Image:
+
+			<input type="file" name="image">
+
+			<br><br>
+			<input type="submit" name="submit" value="Upload image">
+
+		</fieldset>
+
+		<fieldset>
+			
+			<legend>Your Review:</legend>
+
+			How did you here about us?
+			<select>
+				<option value="google">Google</option>
+				<option value="friend">Friend</option>
+				<option value="advertise">Advertise</option>
+				<option value="other">Other</option>
+			</select><br><br>
+
+			Would you like to visit again?
+			<input type="radio" name="ask for visit">Yes
+			<input type="radio" name="ask for visit">No
+			<input type="radio" name="ask for visit">Maybe
+			<br><br>
+
+			Comments:
+			<br><br>
+
+			<textarea rows="4" cols="40">Comments...</textarea><br><br>
+
+			<input type="checkbox" name="sign up" checked="checked">
+			Sign me up for email updates
+			<br><br>
+
+			<input type="submit" name="submit review" value="Submit review">
+		</fieldset>
+	</form>
+	</p>
+
+
+</body>
+</html>
